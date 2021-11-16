@@ -31,8 +31,8 @@ FREQ-1 | The system shall allow a patient to make an appointment for their illne
 FREQ-2 | The system shall assign the patient's illness to a specific illness category.
 FREQ-3 | The system shall display the availability of the doctors whose medical specialization matches the illness category.
 FREQ-4 | In the case no doctor with matching medical specializations is available within 14 days, the system shall display the availability of doctors who most closely match the needed specialization.
-FREQ-6 | The system shall allow multiple patients to schedule an appointment simultaneously.
-FREQ-7 | The system shall minimize waiting times for more severe illnesses.
+FREQ-5 | The system shall allow multiple patients to schedule an appointment simultaneously.
+FREQ-6 | The system shall minimize waiting times for more severe illnesses.
 
 ### Non-functional Requirements
 ID | Description
