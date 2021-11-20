@@ -12,15 +12,9 @@ Meeting Date: Nov 8, 2021
    5. Diagrams - 
       1. Sequence Diagram - Jacob
       2. Use-case diagram - Khyati
-      3. ER Diagram - kartik  
+      3. ER Diagram - Generate from code  
       4. Class Diagram - Generate from code
       5. Activity Diagram - Vivek
       6. State Machine Diagrams - Dmitry
       7. Component- generate from code
       
-
---- IGNORE 
-Sample Data Generation - Khyati 
-Doctor_id, Doctor Names, 
-patient_id, Patient Names
- 
