@@ -11,6 +11,12 @@ As such, there are multiple vectors from whih the Testing and Evaluation issue i
     - For patients that know which physician they want to see, ensure that the system assigned them to a correct physician. The aim is to have a >80% correct referral rate, as booking a physician can be a time-consuming process.
     - For patients who do not know which physician they would like to see, have an after-consultation survey to ensure that they have been assigned to a correct subspecialty physician. That will ensure that the system is working well for users who don't know their goal too well. The aim is to have a >70% sucess rate with this category of users.
 - Appropriate time selection.
-  - Timing your visit is important for both the consumers and 
+  - Timing your visit is important for both the consumers and physcians providing the service. We aim to schedule appointments for everybody at a reasonable time, within at most 2 weeks of the initial scheduling. The system accounts for the pre-set time schedules of each physician. After scheduling and following through with the appointment, each patient is asked to rank their offerent time and suggest further improvement in one of the following categories:
+    - Time slot length
+    - Appointment location (in the event that the hostpical extends to multiple campuses)
+    - Appointment wait time (to identify if more of a 'heads up' is necessary)
+  
+  
+
 
 
