@@ -6,7 +6,7 @@ Object Identification  -
    2. doctor_name
    3. gender
 
-2. Doctor's Work Shift
+2. Doctor's Work Shift - Scalable Design Approach
    1. doctor_id
    2. shift_id
    3. shift_start hour
@@ -18,7 +18,7 @@ Object Identification  -
    2. doctor_id
    3. date: date >= 'Today'
    4. hour_number - Assumption minimum 1hr (0-24)
-   5. schedule_event - Boolean (Blocked/Unavailable) - Keep in Diff (what really matters)
+   5. schedule_event - Boolean (Booked/Unavailable_DUE_TO_PRIORITY) - Keep in Diff (what really matters)
    6. appointment_id - 
 
 |doctor_id| date| hour_number | schedule_event| Appointment_id
@@ -55,7 +55,6 @@ Doctor's Booked Schedule --> 10, 12
    4. date: date < 'Today' i.e. yesterday
    5. hour_number - Assumption minimum 1hr (0-24)
    6. is_available - Boolean (True/False)
-4. P
 
 [comment]: <> (3. Current Doctor Schedule Mapping )
 
@@ -64,7 +63,7 @@ Doctor's Booked Schedule --> 10, 12
 [comment]: <> (   2. schedule_id)
 
 
-3. Doctor's Available Schedule  - Weekday x Hours matrix - Max 2/3 weeks -> 100*3*7*24 = 50400
+3. Doctor's Available Schedule  - Weekday x Hours matrix
    1. schedule_id
    2. doctor_id
    3. start_time - timestamp
@@ -77,10 +76,7 @@ Doctor's Booked Schedule --> 10, 12
    3. end hour - 3:00
    4. patient_id
    5. doctor_id
-
-
-
-
+   
 5. Specialization
    1. Specialization_id
    2. Specialization_name -> eg. Orthodontistry, SmileDesign, Dermatology, Gastroenterology, 
@@ -94,3 +90,22 @@ Doctor's Booked Schedule --> 10, 12
    1. category_id
    2. category_name (large) -> "Soar Throat ","Eye Strain","Low Eye Vision" , "Skin","Sprains", General Phyical Wellness
    3. specilization_id
+
+
+8. Patient
+   1. patient_id
+   2. patient_name
+   3. patient_email
+   
+-- To solv 14 days problem this is the solution.
+9. patient_priority_schedule - Gives a priority of all patients at start of the day - Altered manually - by Customer Support
+   1. patient_id
+   2. doctor_id
+   3. requested_start_hour
+   4. requested_end_hour
+   5. date 
+
+----- At day start -- SELECT patient_id from patient_priority where date = current_date();
+
+At the start of the day, I'll check the priority for a patient, 
+and will MARK UNAVAILABLE these time slots for >7 days if any patient is already in the waiting state.
