@@ -16,5 +16,4 @@ Meeting Date: Nov 8, 2021
       4. Class Diagram - Generate from code
       5. Activity Diagram - Vivek
       6. State Machine Diagrams - Dmitry
-      7. Component- generate from code
       
