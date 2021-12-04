@@ -4,14 +4,14 @@ This process entails development of abstract models of a system that helps prese
 
 * External Perspective - It helps model the system environment. A context diagram placed below indicates different parts of the system that are being developed. Teh figure shows the medical appointment system where the appoitment scheduling system is connected to doctor management system, patient management system and an admin/ system manager system.
 
-  Context diagram and explaination .........
+  Context diagram and explanation .........
 
 
 * Interaction Perspective - This helps model the interactions between a system and its environment/ componenets of the system. This helps in identification of potential communication problems. Our case explains this perspective through the Use case and the sequence model for teh appoitment scheduling system.
 
   Use case diagram - description
 
-  sequence model diagram with explaination - diagram and description
+  sequence model diagram with explanation - diagram and description
 
 
 * Structural perspective - The system organisation and the structure of the data processing is modeled here. Our case study explains this via class diagrams. Various objects that represented in the system are doctor, patient, calender based scheduler, admin login system. The class diagram is plcaed below. Explain the class diagram .......
