@@ -1,6 +1,7 @@
-from flask import Flask
+from flask import Flask, request
 from models import db
-from mapper import IllnessToSpecializationMapper
+from getSchedule import getSchedule
+from book import book
 
 app = Flask(__name__)
 
@@ -19,8 +20,18 @@ db.init_app(app)
 
 @app.route("/")
 def main():
-    return 'Hello World !'
+    return "App Succesfully Loaded"
 
+@app.route("/schedule", methods=['GET'])
+def get_schedule():
+    return getSchedule(request.args)
+
+@app.route("/book", methods=['POST'])
+def post_booking():
+    return book(request.args)
+
+
+"""
 @app.route("/test")
 def test():
     result = db.engine.execute("SELECT * FROM mas.doctor")
@@ -29,19 +40,7 @@ def test():
         row_as_dict = dict(r)
         dicts.append(row_as_dict)
     return "<h1>{}<h1><h2>{}</h2>".format(dicts[0]['doctor_name'], dicts[1]['doctor_name'])
-
-@app.route("/mapper")
-def mapperFnc():
-    return IllnessToSpecializationMapper()
- 
-@app.route("/illness/<illnessName>")
-def show_name(illnessName):
-    return "<h1>Your have the: {}</h1>".format(illnessName)
-
-# Services 
-# Main appointment booker api which possible has a parameter name and a place to input illness
-# IllnessToSpecializationMapper which takes that illness and maps it to a doctor specialization
-# The Mapper then goes to the scheduler and says here is the specialization i want, show me the available doctors for that specialization schedule
+"""
 
 if __name__ == '__main__':
     app.run(debug=TRUE)

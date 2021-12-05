@@ -12,6 +12,7 @@
 8. `pip install SQLAlchemy`
 8. `pip install -U Flask-SQLAlchemy`
 9. `pip install psycopg2-binary`
+10. `pip install -U marshmallow`
 
 # Database creation notes
 1. Create a server, then a database, and then a schema called `mas`
