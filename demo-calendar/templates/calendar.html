@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Document</title>
+        <link rel="stylesheet" href ="https://cdn.jsdelivr.net/npm/fullcalendar@5.10.1/main.min.css">
+        <script src="https://cdn.jsdelivr.net/npm/fullcalendar@5.10.1/main.min.js"></script>
+    </head> 
+    <body>
+       <div id="calendar"></div>
+       <script>
+           let calendarEl = document.getElementById('calendar');
+           let calendar = new FullCalendar.Calendar(calendarEl, 
+           {
+               events : [
+                   {% for event in events%}
+                   
+                   { 
+                    id : '{{event.id}}',
+                    title : '{{event.title}}',
+                    start : '{{event.start}}',
+                    end : '{{event.end}}',
+                    },
+                {% endfor %}
+               ],
+
+               eventClick: function(info) {
+                    alert(info.event.title + ' booked successfully for ' + info.event.start);
+                    alert('event id: ' + info.event.id)
+                    // to access event id, return info.event.id
+                }
+            });
+           calendar.render();
+       </script>
+    </body>
+</html>
