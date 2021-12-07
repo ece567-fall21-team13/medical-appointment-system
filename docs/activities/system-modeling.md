@@ -18,10 +18,7 @@ This process entails development of abstract models of a system that helps prese
 
 As seen in the diagram mapping system, doctor and the patient are the actors in the system. The 		doctor can view the patient records, appointment details and own schedule. The patient has the ability to search and book the appointment. The mapping system maps the patient's ailment to the required specialist and manages the appointment to serve the 14 day appointment constriant. The diagram helps understand different used cases that form the part of our appointment sceduling software system.
 
-```
 Place sequence model diagram here.......
-```
-
 
 The sequence diagram placed above models the interaction between actors and the objects in the appointment scheduling system. The sequence of interaction between the objects is as follows: -
 
@@ -35,10 +32,7 @@ Place the class diagram here.......
 ```
 
 
-```
 The class diagram helps develop an object oriented system model. In the class diagram above.......
-```
-
 
 * Behavioral perspective - Here we model the dynamic behavior of the system abd how it responds to events. A state diagram and a DFD is placed below to explain the behavioral perspective of medical appointment system. The scheduling data of the doctor and the patient generate the stimuli that triggers the system processing.
 
