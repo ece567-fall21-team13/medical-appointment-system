@@ -1,5 +1,4 @@
-CREATE
-DATABASE mas;
+CREATE DATABASE mas;
 
 CREATE TABLE doctor
 (
