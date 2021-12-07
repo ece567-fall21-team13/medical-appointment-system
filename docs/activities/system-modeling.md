@@ -14,10 +14,9 @@ This process entails development of abstract models of a system that helps prese
 
   Place the Use case diagram here.....
 
-```
-As seen in the diagram mapping system, doctor and the patient are the actors in the system. The 		doctor can view the patient records, appointment details and own schedule. The patient has the ability to search and book the appointment. The mapping system maps the patient's ailment to the required specialist and manages the appointment to serve the 14 day appointment constriant. The diagram helps understand different used cases that form the part of our appointment sceduling software system.
-```
 
+
+As seen in the diagram mapping system, doctor and the patient are the actors in the system. The 		doctor can view the patient records, appointment details and own schedule. The patient has the ability to search and book the appointment. The mapping system maps the patient's ailment to the required specialist and manages the appointment to serve the 14 day appointment constriant. The diagram helps understand different used cases that form the part of our appointment sceduling software system.
 
 ```
 Place sequence model diagram here.......
