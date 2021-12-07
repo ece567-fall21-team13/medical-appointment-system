@@ -25,10 +25,7 @@ Place sequence model diagram here.......
 
 The sequence diagram placed above models the interaction between actors and the objects in the appointment scheduling system. The sequence of interaction between the objects is as follows: -
 
-```
 The patient triggers the appointment booker object, which in turn maps it to the specialisation mapper. once the patient is mapped, the scheduler checks the earliest available slot and books it for the patient. In case the appointment is not available, the scheduler uses the optimization algorithm to raise the priority status of the patient's request to fulfill the 14 day appointment criteria.
-```
-
 
 * Structural perspective - The system organisation and the structure of the data processing is modeled here. Our case study explains this via class diagrams. Various objects that represented in the system are doctor, patient, calender based scheduler, admin login system. The class diagram is placed below.
 
