@@ -1,0 +1,4 @@
+doctor_id, shift_start, shift_end , lunch_hour
+a556ad27-5b14-40b5-837f-f857059f727a,9:00,17:00,13:00
+c1cf81ba-14fb-4376-b2dc-2b8c5d104668,9:00,18:00,14:00
+0a8b92c5-ee50-4e9d-a840-fad1f0a90887,10:00,17:00,15:00
