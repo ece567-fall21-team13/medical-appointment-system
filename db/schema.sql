@@ -59,13 +59,6 @@ CREATE table doctor_specialization
     specialization_name text
 );
 
-CREATE table doctor_specialization_mapping
-(
-    doctor_id           uuid REFERENCES doctor (doctor_id),
-    specialization_id   uuid REFERENCES doctor_specialization (Specialization_id),
-    specilization_level text
-);
-
 CREATE TABLE illness_category
 (
     category_id   uuid,
