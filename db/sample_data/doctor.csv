@@ -1,4 +1,4 @@
-doctor_name,gender
-a556ad27-5b14-40b5-837f-f857059f727a,Lilly Brady,F
-c1cf81ba-14fb-4376-b2dc-2b8c5d104668,Elisha Robinson,F
-0a8b92c5-ee50-4e9d-a840-fad1f0a90887,Taylah Merrill,M
+doctor_name,gender,specialization_id
+a556ad27-5b14-40b5-837f-f857059f727a,Lilly Brady,F,9afa15a8-802e-4ada-8ebb-73f45f460e05
+c1cf81ba-14fb-4376-b2dc-2b8c5d104668,Elisha Robinson,F,b6ba4fc4-bced-4e64-93ff-2048fb91dec1
+0a8b92c5-ee50-4e9d-a840-fad1f0a90887,Taylah Merrill,M,b6ba4fc4-bced-4e64-93ff-2048fb91dec1
