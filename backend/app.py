@@ -30,17 +30,5 @@ def get_schedule():
 def post_booking():
     return book(request.args)
 
-
-"""
-@app.route("/test")
-def test():
-    result = db.engine.execute("SELECT * FROM mas.doctor")
-    dicts = []
-    for r in result:
-        row_as_dict = dict(r)
-        dicts.append(row_as_dict)
-    return "<h1>{}<h1><h2>{}</h2>".format(dicts[0]['doctor_name'], dicts[1]['doctor_name'])
-"""
-
 if __name__ == '__main__':
     app.run(debug=TRUE)
