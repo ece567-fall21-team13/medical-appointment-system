@@ -9,7 +9,7 @@ This process entails development of abstract models of a system that helps prese
   Place the diagram here....
 
   ```
-  ![Requirements Engineering](assets/Context Diagram.drawio.png)
+  ![](docs/assets/Context_Diagram.drawio.svg)
   ```
 
   The context model above shows the medical appointment system and other systems in its environment. The appoinment scheduling system is connected to the Doctor's portal that manages the availability of various doctors and helps the doctors to manage thier respective calender as well. The patients portal provides access to the patients to view the availability of doctors and book appointments. The appointment management system regulates the priority algorithm that optimizes the scheduler and makes sure that the patient's priority is upgraded so as to meet the 14 day appointment contraint.
