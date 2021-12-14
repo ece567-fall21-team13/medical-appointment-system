@@ -6,7 +6,7 @@ This process entails development of abstract models of a system that helps prese
 
 * External Perspective - It helps model the system environment. A context diagram placed below indicates different parts of the system that are being developed. The figure shows the medical appointment management system where the appoitment scheduling system is connected to doctor management system, patient management system and an admin/ system manager system. The context diagram help understand the boundaries of system and its environment.
 
-  ![1639442454283.png](https://file+.vscode-resource.vscode-webview.net/Users/coder/Documents/GitHub/medical-appointment-system/docs/activities/image/system-modeling/1639442454283.png)
+  ![1639443049379.png](image/system-modeling/1639443049379.png)
 
   The context model above shows the medical appointment system and other systems in its environment. The appoinment scheduling system is connected to the Doctor's portal that manages the availability of various doctors and helps the doctors to manage thier respective calender as well. The patients portal provides access to the patients to view the availability of doctors and book appointments. The appointment management system regulates the priority algorithm that optimizes the scheduler and makes sure that the patient's priority is upgraded so as to meet the 14 day appointment contraint.
 * Interaction Perspective - This helps model the interactions between a system and its environment/ componenets of the system. This helps in identification of potential communication problems. Our case explains this perspective through the Use case and the sequence model for the appoitment scheduling system.
