@@ -12,7 +12,7 @@ def getSchedule(args):
         print(err.messages)
         return "Invalid input", 400
 
-    query = """SELECT shift_date ,shift_hour ,availability ,   doctor_name ,category_name, specialization_name from
+    query = """SELECT shift_date ,shift_hour ,availability , doctor_name, doctor_id, category_name, specialization_name from
             (SELECT s.*, d.doctor_name, d.specialization_id
                 from (SELECT dws.doctor_id,
                             shift_date,
