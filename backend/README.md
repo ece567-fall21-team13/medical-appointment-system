@@ -17,4 +17,3 @@
 # Database creation notes
 1. Create a server, then a database, and then a schema called `mas`
 2. From there, you can run the SQL commands provided in db.sql to create the various tables
-3. For uuid generation, you need 2 lines of code to execute: `CREATE EXTENSION IF NOT EXISTS "uuid-ossp";` and `uuid_generate_v4()`
