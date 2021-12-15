@@ -1,7 +1,7 @@
->**Dependable attributes**
+# Dependable attributes
 
 Dependable attributes are the qualities of a system and has the ability to provide services that can be trusted. Medical appointment system is a critical system and should be available 24 x 7 to the user, while designing this system our aim was to provide efficient appropriate doctor according to the patient's  illness. Dependable attributes that we took into consideration are as follows:
 
-1. **Availability:** When discussing the dependable attribute the first attribute that was taken into consideration by our team was "Availability" i.e. the system is available (Does not crash) even though there is increase in the load of users on the system, we have achieved this by making system more scalable, we have used container based deployment model that ensures that system handles the load of increased user.
-
-2. **Reliability:** Next attribute that was taken into consideration was "Reliability", we have ensured that our suystem is reliable by stress testing our syste  in different scenarios. Along with that we also did input validation of our system (i.e. Tested our system for by providing different inputs and checking the systems response)
+* **Availability:** When discussing the dependable attribute the first attribute that was taken into consideration by our team was "Availability" i.e. the system is available (Does not crash) even though there is increase in the load of users on the system, we have achieved this by making system more scalable, we have used container based deployment model that ensures that system handles the load of increased user.
+* **Reliability:** Next attribute that was taken into consideration was "Reliability", we have ensured that our suystem is reliable by stress testing our syste  in different scenarios. Along with that we also did input validation of our system (i.e. Tested our system for by providing different inputs and checking the systems response)
+* **Security:** The security of patient's information is one of the primary requirements as per FIPA standards. While the security is currently limited to authorization and authentication, firewalls built in the systems and endpoint protection measures, we plan to further protect patients' data by encrypting the user information.
