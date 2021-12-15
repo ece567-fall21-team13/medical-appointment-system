@@ -63,8 +63,30 @@ Having a data model and a permanent method to store data was also identified as 
 Two main RESTful API endpoints were created, /schedule and /book. The first core functionality, /schedule, is a GET request which receives the available slot schedules for a patient to view based on the illness category entered. The second core functionality, /book, is a POST request which allows the patient to request to book a specific open schedule slot.
 
 ## Dependability Principles
+Dependable attributes are the qualities of a system and has the ability to provide services that can be trusted. Medical appointment system is a critical system and should be available 24x7 to the user, while designing this system our aim was to provide appropriate doctor according to the patient's illness. Dependable attributes that we took into consideration in order to make our system dependable are as follows:
 
-## Project Management
+- **Availability:** When discussing the dependable attribute the first attribute that was taken into consideration by our team was Availability i.e., the system is available (Does not crash) even though there is increase in the load of users on the system, we have achieved this by making system more scalable, we have used container based deployment model that ensures that system handles the load of increased user.
+
+- **Reliability:** Next attribute that was taken into consideration was Reliability, we have ensured that our system is reliable by stress testing our system in different scenarios. Along with that we also did input validation of our system (i.e. Tested our system for by providing different inputs and checking the system's response). We also ensured that we had a very low downtime by continuously testing our system under different scenarios.
+
+- **Security:** The security of patient's information is one of the primary requirements as per FIPA standards. While the security is currently limited to authorization and authentication, firewalls built in the systems and endpoint protection measures, we plan to further protect patients' data by encrypting the user information.
+
+##Project Management
+
+While designing any system, project management is required and our team followed the following project management activities:
+
+1. **Project planning:** We started our project by first studying the problem statement thoroughly and identifying the requirements in the problem statement. We decided to deliver the designed system in three iterations and each in each iteration we ensured new functionality was added. The progress of each individual was tracked by weekly team meetings.
+
+2. **People management:** The project was divided into different sections and each individual was assigned the task based on his/her knowledge on the subject. We ensured that each team members are on the same page by sharing the knowledge with each other. This ensured that there was timely progress and the system was delivered on time.
+
+3. **Risk management:** After identifying the functional and non-functional requirements, next thing we took into consideration was the risks that could affect the functionality of the system. First risk identified by us was system availability, since this system was critical it should be available to the patients 24x7, thus we designed our system such that it is scalable as in it can handle increasing number of user and has low downtime. Second risk identified by us was that if the patient is not able to get the appointment within 14 days of request, in this case we decided to manually intervene the process and book an appointment for the patient (This is like the worst case scenario for the system).
+
+4. **Proposal writing:** After receiving the problem statement the first thing we did was to write a proposal, in this we stated our objective and how do we plan to work on the project. It also included what softwares and programming languages we will be using , since this was just a team project for the subject we did not calculate cost and delivery estimates.
+
+#### Gantt chart
+We used the Gantt chart to track the overall progress of our project. This helped in organizing our sprints and track our missed targets during sprints and iterations.
+
+![Gantt_chart](./docs/assets/Gantt_chart.png)
 
 ## Advance SWE - Reuse
 
