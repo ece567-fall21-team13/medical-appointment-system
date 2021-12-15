@@ -71,7 +71,7 @@ Dependable attributes are the qualities of a system and has the ability to provi
 
 - **Security:** The security of patient's information is one of the primary requirements as per FIPA standards. While the security is currently limited to authorization and authentication, firewalls built in the systems and endpoint protection measures, we plan to further protect patients' data by encrypting the user information.
 
-##Project Management
+## Project Management
 
 While designing any system, project management is required and our team followed the following project management activities:
 
