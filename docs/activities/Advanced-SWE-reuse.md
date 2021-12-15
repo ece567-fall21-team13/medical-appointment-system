@@ -6,5 +6,5 @@ The entire front-end component of the system was designed using FullCalendar, a 
 
 Additionally, our application is a perfect candidate for reuse in other scheduling tasks for medical systems which do not have our exact specifications. Any additional parameters that must be saved within the appointment object are strictly defined in the FullCalendar API and can be modified in only 2 places in the entire application that will render them available everywhere. 
 
-For instance, if the system was to be repurposed for an appoinitment scheduler with a parameter that accounted for appointment room, that could be easily placed in the front end via FullCalendar. 
+For instance, if the system was to be repurposed for an appointment scheduler with a parameter that accounted for appointment room, that could be easily placed in the front end via FullCalendar. 
 
