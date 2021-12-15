@@ -23,22 +23,19 @@ The patient triggers the appointment booker object, which in turn maps it to the
 
 * Structural perspective - The system organisation and the structure of the data processing is modeled here. Our case study explains this via class diagrams. Various objects that represented in the system are doctor, patient, calender based scheduler, admin login system. The class diagram is placed below.
 
-```
-Place the class diagram here.......
-```
 
-The class diagram helps develop an object oriented system model. In the class diagram above.......
+![1639603170829.png](image/system-modeling/1639603170829.png)
+
+
+
+
+The class diagram above outlines the object oriented model of our application. The diagram shows the data entities, thier associated attributes and relations amongst these entities.
 
 * Behavioral perspective - Here we model the dynamic behavior of the system abd how it responds to events. A state diagram and a DFD is placed below to explain the behavioral perspective of medical appointment system. The scheduling data of the doctor and the patient generate the stimuli that triggers the system processing.
 
-  Place the state diagram here..... and explaination......
+  ![1639603031923.png](image/system-modeling/1639603031923.png)
 
-
-
-
-
-
-
+  The State diagram above shows various system states and events that lead to subsequent transitions in the system. As in our app, the first state is checking from the user for an emergency. The state then transitions to speciality mapping followed by appointment scheduler. The end state of the system is successful booking of the appointment. 
 
   ![1639442851744.png](image/system-modeling/1639442851744.png)
 
