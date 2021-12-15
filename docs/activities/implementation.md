@@ -52,7 +52,6 @@ The `/book` endpoint is a `POST` request which takes five arguments: `appointmen
 ```
 
 Next, is a discussion of particularly important software implementation issues that are addressed:
-### Reuse
 
 ### Configuration management
 Git and GitHub have been identified and used extensively to assist with configuration management. Detailed commits and branches representing iterations have been utilized to help the team with version management, system integration, and problem tracking.
