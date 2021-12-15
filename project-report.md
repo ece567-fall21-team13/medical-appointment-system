@@ -39,6 +39,11 @@ The activity diagram describes the chain of processing involved begining when a 
 
 ### Class Diagram
 
+![1639605837397.png](image/project-report/1639605837397.png)
+
+The class diagram above outlines the object oriented model of our application. The diagram shows the data entities, thier associated attributes and relations amongst these entities.
+
+
 ## Architecture
 
 ![1639605055139.png](image/project-report/1639605055139.png)
