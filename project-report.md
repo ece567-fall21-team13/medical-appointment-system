@@ -70,6 +70,13 @@ The above diagram is a pictorial representation of how we are calculating availa
    4. Available slots joined with Doctor_info, specialization, illness mapping - This part filters the doctor for specialization and illness category which are arguments 
     passed from the app. 
 
+### ER Diagram 
+The ER diagram shows all tables and relations for all DB objects in the database.
+There's a also a unconnected history table which stores all the past schedule of a doctor and is populated 
+at the end of the day.
+
+![ER diagram](./docs/assets/2021-12-15_21-12.png)
+
 ### Implementation
 
 For this system, the Flask framework written in Python will be used to create the "backend" services of the system. REST APIs and endpoints will be created for the critical functionality of the system such as finding the available schedules and booking a schedule slot. These will be created in accordance with the design created in [specification.md](./specification.md).

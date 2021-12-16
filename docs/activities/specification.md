@@ -21,3 +21,5 @@ The above diagram is a pictorial representation of how we are calculating availa
 The ER diagram shows all tables and relations for all DB objects in the database.
 There's a also a unconnected history table which stores all the past schedule of a doctor and is populated 
 at the end of the day.
+
+![ER diagram](../assets/2021-12-15_21-12.png)
