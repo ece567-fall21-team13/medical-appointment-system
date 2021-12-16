@@ -11,4 +11,4 @@ While designing any system, project management is required and our team followed
 
 We used the Gantt chart to track the overall progress of our project. This helped in organizing our sprints and track our missed targets during sprints and iterations. 
 
-![1639607526562.png](image/Project Management concept/1639607526562.png)
+![gantt chart](../assets/gantt_chart.png)
