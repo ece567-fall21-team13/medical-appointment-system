@@ -23,3 +23,10 @@ There's a also a unconnected history table which stores all the past schedule of
 at the end of the day.
 
 ![ER diagram](../assets/2021-12-15_21-12.png)
+
+
+# How is 14 days limit is ensured.
+We introduced a concept of priority, which says a time slot can be potentially booked by a patient which is put in for some priority for a particular slot for a doctor.
+This priority is then considered to show available slots to the all the patients except those potential slots.
+Until 7 days futher from current_date, the priority slots are available to be booked by only prior patients only.
+In case the priority slot is not booked in 7 days, the slot opens up for all the patient to book.
