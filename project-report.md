@@ -56,7 +56,7 @@ We chose a layered architecture for developing the application. The top layer su
 
 Discussion of specification is largely encapsulataed in the design and implementation component.
 
-![Arch](../assets/scheduling%20logic%20explanation.drawio.png)
+<img width="802" alt="Screenshot 2021-12-15 at 8 25 26 PM" src="https://user-images.githubusercontent.com/86423179/146290938-c99c0026-276c-42c1-9f57-7316999fa0fd.png">
 
 The above diagram is a pictorial representation of how we are calculating available slots.
 
