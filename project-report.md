@@ -80,7 +80,32 @@ Two main RESTful API endpoints were created, /schedule and /book. The first core
 
 ## Dependability Principles
 
+Dependable attributes are the qualities of a system and has the ability to provide services that can be trusted. Medical appointment system is a critical system and should be available 24 x 7 to the user, while designing this system our aim was to provide efficient appropriate doctor according to the patient's  illness. Dependable attributes that we took into consideration are as follows:
+
+* **Availability:** When discussing the dependable attribute the first attribute that was taken into consideration by our team was "Availability" i.e. the system is available (Does not crash) even though there is increase in the load of users on the system, we have achieved this by making system more scalable, we have used container based deployment model that ensures that system handles the load of increased user.
+* **Reliability:** Next attribute that was taken into consideration was "Reliability", we have ensured that our suystem is reliable by stress testing our syste  in different scenarios. Along with that we also did input validation of our system (i.e. Tested our system for by providing different inputs and checking the systems response)
+* **Security:** The security of patient's information is one of the primary requirements as per FIPA standards. While the security is currently limited to authorization and authentication, firewalls built in the systems and endpoint protection measures, we plan to further protect patients' data by encrypting the user information.
+
 ## Project Management
+
+While designing any system, project management is required and our team followed the following project management activities:
+
+1. **Project planning:** We started our project by first studying the problem statement thoroughly and identifying the requirements in the problem statement. We decided to deliver the designed system in three iterations and each in each iteration we ensured new functionality was added. The progress of each individual was tracked by weekly team meetings.
+2. **People management:** The project was divided into different sections and each individual was assigned the task based on his/her knowledge on the subject. We ensured that each team members are on the same page by sharing the knowledge with each other. This ensured that there was timely progress and the system was delivered on time.
+3. **Risk management:** The following critical risks were indentified for this project.
+
+Risk | Description | Impact | Probability | Severity | Mitigation Strategy
+--- | --- | --- | --- |--- |---
+Requirements change | More changes to the requirements than planned for. | Project delivery timeline is slowed. | Low: requirements are agreed upon and specified early. | Serious | Specify and agree upon requirements at beginning of project to avoid delays later.
+Size underestimate | Project size is underestimaed. | More time is needed for completion. | Moderate: size is usually agreed upon early. | Tolerable | Perform project planning to set a defined schedule and recalculate size throughout development.
+Group member loss | A critical group member becomes unavailable. | Project delivery timeline is slowed | High: people have various schedules and are often unpredictable | Catastrophic | Incorporate a plan and hold team members accountable. Hold frequent meetings to keep participants engaged and monitor the progress of assignments.
+4. **Proposal writing:** After receiving the problem statement the first thing we did was to write a proposal, in this we stated our objective and how do we plan to work on the project. It also included what softwares and programming languages we will be using , since this was just a team project for the subject we did not calculate cost and delivery estimates.
+
+### Gantt Chart
+
+We used the Gantt chart to track the overall progress of our project. This helped in organizing our sprints and track our missed targets during sprints and iterations. Placed below is the Gantt chart used by the team.
+
+<img width="1362" alt="Screenshot 2021-12-15 at 5 31 38 PM" src="https://user-images.githubusercontent.com/86423179/146291165-8a4c7baa-929c-4f76-b394-0fa4838ae56a.png">
 
 ## Advance SWE - Reuse
 

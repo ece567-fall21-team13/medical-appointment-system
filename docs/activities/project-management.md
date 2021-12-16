@@ -17,5 +17,4 @@ Group member loss | A critical group member becomes unavailable. | Project deliv
 
 We used the Gantt chart to track the overall progress of our project. This helped in organizing our sprints and track our missed targets during sprints and iterations. Placed below is the Gantt chart used by the team.
 
-
 <img width="1362" alt="Screenshot 2021-12-15 at 5 31 38 PM" src="https://user-images.githubusercontent.com/86423179/146291165-8a4c7baa-929c-4f76-b394-0fa4838ae56a.png">
